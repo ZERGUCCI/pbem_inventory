@@ -1,0 +1,136 @@
+.dropbtn {
+    background-color: rgb(211,93,48);
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropbtn:hover{
+    background-color: rgb(211,93,48);
+    color: white;
+    font-size: 16px;
+    border: none;
+  }
+
+  .popup {
+    /* rgb(211,93,48) */
+    background-color: gold;
+    height: 50%;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 8%; */
+    padding-bottom: 8%;
+    border: 3px solid black;
+    border-radius: 50px;
+    outline: none;
+  }
+
+  .popup input{
+    display: block;
+
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popup button{
+    display: block;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popup button:hover{
+    background-color: purple;
+  }
+
+  .popup label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .popup h1 {
+    text-align: center;
+  }
+
+  .inputs input {
+    display: block;
+
+    width: 30%;
+    border-radius: 10px;
+    padding: 5px;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .inputs textarea {
+    display: block;
+    
+    border-radius: 10px;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .Error{
+    color: red;
+  }
+
+  .noError{
+    display: none;
+  }
+
+  .dontShow {
+      display: none;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  .table{
+    border: 1.5px solid rgba(0, 0, 0, 0.356);
+    float: "left";
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: rgb(238,238,238);
+}
